@@ -1,0 +1,11 @@
+# To-do
+- Walk through tutorial on VADER sentiment analysis from The Programming Historian: https://programminghistorian.org/en/lessons/sentiment-analysis
+- Walk through topic modeling tutorial: https://datascienceplus.com/topic-modeling-in-python-with-nltk-and-gensim/
+- Download the Earthbound text dump found here as an HTML file: https://starmen.net/mother2/gameinfo/script/script.htm
+- Convert to .txt using pandoc
+- Remove @ symbols
+- Run through topic model analysis + visualize
+- Return to the original script and find quotes related to those topics 
+- Run a VADER sentiment analysis on the quotes
+- Write the manuscript
+- Background reading: Andrew Reinhard, some DH + archaeogaming stuff I need to dig into (no pun intended)?
