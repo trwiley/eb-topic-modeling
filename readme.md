@@ -6,5 +6,8 @@ The goal of this project is to to create a topic model from the text of the game
 The text dump was made by Clyde "Tomato" Mandelin and was sourced from here: https://starmen.net/mother2/gameinfo/script/
 
 ## Packages used 
-* NLTK (vader_lexicon and punkt)
+* NLTK (vader_lexicon, punkt, wordnet, stopwords)
 * spacy
+* gensim (LDA topic modeling package)
+* pyLDAvis (LDA visualization)
+* IPython (dependency of pyLDAvis)
