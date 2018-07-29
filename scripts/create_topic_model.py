@@ -24,7 +24,7 @@ def tokenize(text):
 
 # wordnet is used to find the meanings of words, synonyms, antonyms, etc.
 import nltk
-nltk.download('wordnet')
+#nltk.download('wordnet')
 from nltk.corpus import wordnet as wn
 
 def get_lemma(word):
@@ -40,7 +40,7 @@ def get_lemma2(word):
     return WordNetLemmatizer().lemmatize(word)
 
 # filter out stop words
-nltk.download('stopwords')
+#nltk.download('stopwords')
 en_stop = set(nltk.corpus.stopwords.words('english'))
 
 # prepare the text for topic modeling
